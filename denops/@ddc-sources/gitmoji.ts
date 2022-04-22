@@ -28,35 +28,7 @@ function getGitmoji(): CompleteMetadata[] {
   return gitmoji;
 }
 
-const gitmojiJson = {
-  gitmojis: [
-    {
-      "emoji": "🎨",
-      "entity": "&#x1f3a8;",
-      "code": ":art:",
-      "description": "Improve structure / format of the code.",
-      "name": "art",
-      "semver": null
-    },
-    {
-      "emoji": "⚡️",
-      "entity": "&#x26a1;",
-      "code": ":zap:",
-      "description": "Improve performance.",
-      "name": "zap",
-      "semver": "patch"
-    },
-    {
-      "emoji": "🔥",
-      "entity": "&#x1f525;",
-      "code": ":fire:",
-      "description": "Remove code or files.",
-      "name": "fire",
-      "semver": null
-    },
-  ]
-};
-
+const gitmojiJson = JSON.parse(Deno.readTextFileSync('../../data/gitmojis.json'));
 
 export class Source extends BaseSource<Record<string, never>> {
   async gatherCandidates(): Promise<Candidate<CompleteMetadata>[]> {
