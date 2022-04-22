@@ -24,7 +24,7 @@ export type CompleteMetadata = {
 }
 
 function getGitmoji(): CompleteMetadata[] {
-  const gitmoji = gitmojiJson.gitmojis.map((data: Gitmoji) => ({name: data.code, gitmoji: data.emoji, description: data.description}));
+  const gitmoji = gitmojiJson.gitmojis.map((data: Gitmoji) => ({name: data.code, gitmoji: data.code, description: data.emoji + " " + data.description}));
   return gitmoji;
 }
 
