@@ -1,4 +1,4 @@
-import { CompletionMetadata } from "../@ddc-sources/emoji.ts";
+import { CompletionMetadata } from "../@ddc-sources/gitmoji.ts";
 import { Candidate } from "https://deno.land/x/ddc_vim@v0.17.0/types.ts";
 import {
   BaseFilter,
