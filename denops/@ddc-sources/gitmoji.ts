@@ -34,7 +34,7 @@ const gitmojiJson = {
       "emoji": "🎨",
       "entity": "&#x1f3a8;",
       "code": ":art:",
-      "description": "Improve structure / format of the code.",
+      "description": "フォーマットを整える",
       "name": "art",
       "semver": null
     },
@@ -42,7 +42,7 @@ const gitmojiJson = {
       "emoji": "⚡️",
       "entity": "&#x26a1;",
       "code": ":zap:",
-      "description": "Improve performance.",
+      "description": "既存の機能に別の機能を追加",
       "name": "zap",
       "semver": "patch"
     },
@@ -50,7 +50,7 @@ const gitmojiJson = {
       "emoji": "🔥",
       "entity": "&#x1f525;",
       "code": ":fire:",
-      "description": "Remove code or files.",
+      "description": "機能の削除",
       "name": "fire",
       "semver": null
     },
@@ -58,7 +58,7 @@ const gitmojiJson = {
       "emoji": "🐛",
       "entity": "&#x1f41b;",
       "code": ":bug:",
-      "description": "Fix a bug.",
+      "description": "バグを修正",
       "name": "bug",
       "semver": "patch"
     },
@@ -66,7 +66,7 @@ const gitmojiJson = {
       "emoji": "🚑️",
       "entity": "&#128657;",
       "code": ":ambulance:",
-      "description": "Critical hotfix.",
+      "description": "緊急性の高いバグを修正",
       "name": "ambulance",
       "semver": "patch"
     },
@@ -74,7 +74,7 @@ const gitmojiJson = {
       "emoji": "✨",
       "entity": "&#x2728;",
       "code": ":sparkles:",
-      "description": "Introduce new features.",
+      "description": "新規機能の実装",
       "name": "sparkles",
       "semver": "minor"
     },
@@ -82,7 +82,7 @@ const gitmojiJson = {
       "emoji": "📝",
       "entity": "&#x1f4dd;",
       "code": ":memo:",
-      "description": "Add or update documentation.",
+      "description": "処理に影響しない文章の修正",
       "name": "memo",
       "semver": null
     },
@@ -90,7 +90,7 @@ const gitmojiJson = {
       "emoji": "🚀",
       "entity": "&#x1f680;",
       "code": ":rocket:",
-      "description": "Deploy stuff.",
+      "description": "デプロイ",
       "name": "rocket",
       "semver": null
     },
@@ -98,7 +98,7 @@ const gitmojiJson = {
       "emoji": "💄",
       "entity": "&#ff99cc;",
       "code": ":lipstick:",
-      "description": "Add or update the UI and style files.",
+      "description": "UI やスタイルシートなど, 見た目に関する変更",
       "name": "lipstick",
       "semver": "patch"
     },
@@ -106,7 +106,7 @@ const gitmojiJson = {
       "emoji": "🎉",
       "entity": "&#127881;",
       "code": ":tada:",
-      "description": "Begin a project.",
+      "description": "最初のコミット",
       "name": "tada",
       "semver": null
     },
@@ -114,7 +114,7 @@ const gitmojiJson = {
       "emoji": "✅",
       "entity": "&#x2705;",
       "code": ":white_check_mark:",
-      "description": "Add, update, or pass tests.",
+      "description": "テストの追加/更新/合格",
       "name": "white-check-mark",
       "semver": null
     },
@@ -122,7 +122,7 @@ const gitmojiJson = {
       "emoji": "🔒️",
       "entity": "&#x1f512;",
       "code": ":lock:",
-      "description": "Fix security issues.",
+      "description": "セキュリティに関する問題を修正",
       "name": "lock",
       "semver": "patch"
     },
@@ -130,7 +130,7 @@ const gitmojiJson = {
       "emoji": "🔐",
       "entity": "&#x1f510;",
       "code": ":closed_lock_with_key:",
-      "description": "Add or update secrets.",
+      "description": "シークレットを追加/更新",
       "name": "closed-lock-with-key",
       "semver": null
     },
@@ -138,7 +138,7 @@ const gitmojiJson = {
       "emoji": "🔖",
       "entity": "&#x1f516;",
       "code": ":bookmark:",
-      "description": "Release / Version tags.",
+      "description": "リリース",
       "name": "bookmark",
       "semver": null
     },
@@ -146,7 +146,7 @@ const gitmojiJson = {
       "emoji": "🚨",
       "entity": "&#x1f6a8;",
       "code": ":rotating_light:",
-      "description": "Fix compiler / linter warnings.",
+      "description": "コンパイラやリンタの警告を止めた時",
       "name": "rotating-light",
       "semver": null
     },
@@ -154,7 +154,7 @@ const gitmojiJson = {
       "emoji": "🚧",
       "entity": "&#x1f6a7;",
       "code": ":construction:",
-      "description": "Work in progress.",
+      "description": "作業途中",
       "name": "construction",
       "semver": null
     },
@@ -162,7 +162,7 @@ const gitmojiJson = {
       "emoji": "💚",
       "entity": "&#x1f49a;",
       "code": ":green_heart:",
-      "description": "Fix CI Build.",
+      "description": "CI ビルドを修正",
       "name": "green-heart",
       "semver": null
     },
@@ -170,7 +170,7 @@ const gitmojiJson = {
       "emoji": "⬇️",
       "entity": "⬇️",
       "code": ":arrow_down:",
-      "description": "Downgrade dependencies.",
+      "description": "依存関係をダウングレード",
       "name": "arrow-down",
       "semver": "patch"
     },
@@ -178,7 +178,7 @@ const gitmojiJson = {
       "emoji": "⬆️",
       "entity": "⬆️",
       "code": ":arrow_up:",
-      "description": "Upgrade dependencies.",
+      "description": "依存関係をアップグレード",
       "name": "arrow-up",
       "semver": "patch"
     },
@@ -186,7 +186,7 @@ const gitmojiJson = {
       "emoji": "📌",
       "entity": "&#x1F4CC;",
       "code": ":pushpin:",
-      "description": "Pin dependencies to specific versions.",
+      "description": "依存関係を特定のバージョンに固定",
       "name": "pushpin",
       "semver": "patch"
     },
@@ -194,7 +194,7 @@ const gitmojiJson = {
       "emoji": "👷",
       "entity": "&#x1f477;",
       "code": ":construction_worker:",
-      "description": "Add or update CI build system.",
+      "description": "CI ビルドシステムを追加/更新",
       "name": "construction-worker",
       "semver": null
     },
@@ -202,7 +202,7 @@ const gitmojiJson = {
       "emoji": "📈",
       "entity": "&#x1F4C8;",
       "code": ":chart_with_upwards_trend:",
-      "description": "Add or update analytics or track code.",
+      "description": "解析コードを追加",
       "name": "chart-with-upwards-trend",
       "semver": "patch"
     },
@@ -210,7 +210,7 @@ const gitmojiJson = {
       "emoji": "♻️",
       "entity": "&#x2672;",
       "code": ":recycle:",
-      "description": "Refactor code.",
+      "description": "リファクタリング",
       "name": "recycle",
       "semver": null
     },
@@ -218,7 +218,7 @@ const gitmojiJson = {
       "emoji": "➕",
       "entity": "&#10133;",
       "code": ":heavy_plus_sign:",
-      "description": "Add a dependency.",
+      "description": "依存関係を追加",
       "name": "heavy-plus-sign",
       "semver": "patch"
     },
@@ -226,7 +226,7 @@ const gitmojiJson = {
       "emoji": "➖",
       "entity": "&#10134;",
       "code": ":heavy_minus_sign:",
-      "description": "Remove a dependency.",
+      "description": "依存関係を削除",
       "name": "heavy-minus-sign",
       "semver": "patch"
     },
@@ -234,7 +234,7 @@ const gitmojiJson = {
       "emoji": "🔧",
       "entity": "&#x1f527;",
       "code": ":wrench:",
-      "description": "Add or update configuration files.",
+      "description": "構成ファイルを追加/更新",
       "name": "wrench",
       "semver": "patch"
     },
@@ -242,7 +242,7 @@ const gitmojiJson = {
       "emoji": "🔨",
       "entity": "&#128296;",
       "code": ":hammer:",
-      "description": "Add or update development scripts.",
+      "description": "スクリプトを追加/更新",
       "name": "hammer",
       "semver": null
     },
@@ -250,7 +250,7 @@ const gitmojiJson = {
       "emoji": "🌐",
       "entity": "&#127760;",
       "code": ":globe_with_meridians:",
-      "description": "Internationalization and localization.",
+      "description": "グローバル化に対応",
       "name": "globe-with-meridians",
       "semver": "patch"
     },
@@ -258,7 +258,7 @@ const gitmojiJson = {
       "emoji": "✏️",
       "entity": "&#59161;",
       "code": ":pencil2:",
-      "description": "Fix typos.",
+      "description": "タイポの修正",
       "name": "pencil2",
       "semver": "patch"
     },
@@ -266,7 +266,7 @@ const gitmojiJson = {
       "emoji": "💩",
       "entity": "&#58613;",
       "code": ":poop:",
-      "description": "Write bad code that needs to be improved.",
+      "description": "汚いコード",
       "name": "poop",
       "semver": null
     },
@@ -274,7 +274,7 @@ const gitmojiJson = {
       "emoji": "⏪️",
       "entity": "&#9194;",
       "code": ":rewind:",
-      "description": "Revert changes.",
+      "description": "変更を基に戻す",
       "name": "rewind",
       "semver": "patch"
     },
@@ -282,7 +282,7 @@ const gitmojiJson = {
       "emoji": "🔀",
       "entity": "&#128256;",
       "code": ":twisted_rightwards_arrows:",
-      "description": "Merge branches.",
+      "description": "ブランチをマージ",
       "name": "twisted-rightwards-arrows",
       "semver": null
     },
@@ -290,7 +290,7 @@ const gitmojiJson = {
       "emoji": "📦️",
       "entity": "&#1F4E6;",
       "code": ":package:",
-      "description": "Add or update compiled files or packages.",
+      "description": "コンパイルされたファイルの追加/更新",
       "name": "package",
       "semver": "patch"
     },
@@ -298,7 +298,7 @@ const gitmojiJson = {
       "emoji": "👽️",
       "entity": "&#1F47D;",
       "code": ":alien:",
-      "description": "Update code due to external API changes.",
+      "description": "外部の API の変更による影響でコードを修正",
       "name": "alien",
       "semver": "patch"
     },
@@ -306,7 +306,7 @@ const gitmojiJson = {
       "emoji": "🚚",
       "entity": "&#1F69A;",
       "code": ":truck:",
-      "description": "Move or rename resources (e.g.: files, paths, routes).",
+      "description": "ファイルや名前の変更",
       "name": "truck",
       "semver": null
     },
@@ -314,7 +314,7 @@ const gitmojiJson = {
       "emoji": "📄",
       "entity": "&#1F4C4;",
       "code": ":page_facing_up:",
-      "description": "Add or update license.",
+      "description": "ライセンスの追加/更新",
       "name": "page-facing-up",
       "semver": null
     },
@@ -322,7 +322,7 @@ const gitmojiJson = {
       "emoji": "💥",
       "entity": "&#x1f4a5;",
       "code": ":boom:",
-      "description": "Introduce breaking changes.",
+      "description": "重大な変更の導入",
       "name": "boom",
       "semver": "major"
     },
@@ -330,7 +330,7 @@ const gitmojiJson = {
       "emoji": "🍱",
       "entity": "&#1F371",
       "code": ":bento:",
-      "description": "Add or update assets.",
+      "description": "アセットを追加/更新",
       "name": "bento",
       "semver": "patch"
     },
@@ -338,7 +338,7 @@ const gitmojiJson = {
       "emoji": "♿️",
       "entity": "&#9855;",
       "code": ":wheelchair:",
-      "description": "Improve accessibility.",
+      "description": "アクセシビリティの向上",
       "name": "wheelchair",
       "semver": "patch"
     },
@@ -346,7 +346,7 @@ const gitmojiJson = {
       "emoji": "💡",
       "entity": "&#128161;",
       "code": ":bulb:",
-      "description": "Add or update comments in source code.",
+      "description": "コメントを追記",
       "name": "bulb",
       "semver": null
     },
@@ -354,7 +354,7 @@ const gitmojiJson = {
       "emoji": "🍻",
       "entity": "&#x1f37b;",
       "code": ":beers:",
-      "description": "Write code drunkenly.",
+      "description": "お酒を飲みながら書いたコード汚いコード",
       "name": "beers",
       "semver": null
     },
@@ -362,7 +362,7 @@ const gitmojiJson = {
       "emoji": "💬",
       "entity": "&#128172;",
       "code": ":speech_balloon:",
-      "description": "Add or update text and literals.",
+      "description": "テキストやリテラルの追加や変更",
       "name": "speech-balloon",
       "semver": "patch"
     },
@@ -370,7 +370,7 @@ const gitmojiJson = {
       "emoji": "🗃️",
       "entity": "&#128451;",
       "code": ":card_file_box:",
-      "description": "Perform database related changes.",
+      "description": "データベース関連の変更",
       "name": "card-file-box",
       "semver": "patch"
     },
@@ -378,7 +378,7 @@ const gitmojiJson = {
       "emoji": "🔊",
       "entity": "&#128266;",
       "code": ":loud_sound:",
-      "description": "Add or update logs.",
+      "description": "ログを更新",
       "name": "loud-sound",
       "semver": null
     },
@@ -386,7 +386,7 @@ const gitmojiJson = {
       "emoji": "🔇",
       "entity": "&#128263;",
       "code": ":mute:",
-      "description": "Remove logs.",
+      "description": "ログを削除",
       "name": "mute",
       "semver": null
     },
@@ -394,7 +394,7 @@ const gitmojiJson = {
       "emoji": "👥",
       "entity": "&#128101;",
       "code": ":busts_in_silhouette:",
-      "description": "Add or update contributor(s).",
+      "description": "寄稿者の追加/更新",
       "name": "busts-in-silhouette",
       "semver": null
     },
@@ -402,7 +402,7 @@ const gitmojiJson = {
       "emoji": "🚸",
       "entity": "&#128696;",
       "code": ":children_crossing:",
-      "description": "Improve user experience / usability.",
+      "description": "UX の向上",
       "name": "children-crossing",
       "semver": "patch"
     },
@@ -410,7 +410,7 @@ const gitmojiJson = {
       "emoji": "🏗️",
       "entity": "&#1f3d7;",
       "code": ":building_construction:",
-      "description": "Make architectural changes.",
+      "description": "アーキテクチャを変更",
       "name": "building-construction",
       "semver": null
     },
@@ -418,7 +418,7 @@ const gitmojiJson = {
       "emoji": "📱",
       "entity": "&#128241;",
       "code": ":iphone:",
-      "description": "Work on responsive design.",
+      "description": "レスポンシブデザインに対応",
       "name": "iphone",
       "semver": "patch"
     },
@@ -426,7 +426,7 @@ const gitmojiJson = {
       "emoji": "🤡",
       "entity": "&#129313;",
       "code": ":clown_face:",
-      "description": "Mock things.",
+      "description": "モック関係",
       "name": "clown-face",
       "semver": null
     },
@@ -434,7 +434,7 @@ const gitmojiJson = {
       "emoji": "🥚",
       "entity": "&#129370;",
       "code": ":egg:",
-      "description": "Add or update an easter egg.",
+      "description": "イースターエッグを追加, 更新",
       "name": "egg",
       "semver": "patch"
     },
@@ -442,7 +442,7 @@ const gitmojiJson = {
       "emoji": "🙈",
       "entity": "&#8bdfe7;",
       "code": ":see_no_evil:",
-      "description": "Add or update a .gitignore file.",
+      "description": ".gitignore を変更",
       "name": "see-no-evil",
       "semver": null
     },
@@ -450,7 +450,7 @@ const gitmojiJson = {
       "emoji": "📸",
       "entity": "&#128248;",
       "code": ":camera_flash:",
-      "description": "Add or update snapshots.",
+      "description": "スナップショットを更新",
       "name": "camera-flash",
       "semver": null
     },
@@ -458,7 +458,7 @@ const gitmojiJson = {
       "emoji": "⚗️",
       "entity": "&#128248;",
       "code": ":alembic:",
-      "description": "Perform experiments.",
+      "description": "実験を行う",
       "name": "alembic",
       "semver": "patch"
     },
@@ -466,7 +466,7 @@ const gitmojiJson = {
       "emoji": "🔍️",
       "entity": "&#128269;",
       "code": ":mag:",
-      "description": "Improve SEO.",
+      "description": "SEO を改善",
       "name": "mag",
       "semver": "patch"
     },
@@ -474,7 +474,7 @@ const gitmojiJson = {
       "emoji": "🏷️",
       "entity": "&#127991;",
       "code": ":label:",
-      "description": "Add or update types.",
+      "description": "型を変更",
       "name": "label",
       "semver": "patch"
     },
@@ -482,7 +482,7 @@ const gitmojiJson = {
       "emoji": "🌱",
       "entity": "&#127793;",
       "code": ":seedling:",
-      "description": "Add or update seed files.",
+      "description": "シードファイルを変更",
       "name": "seedling",
       "semver": null
     },
@@ -490,7 +490,7 @@ const gitmojiJson = {
       "emoji": "🚩",
       "entity": "&#x1F6A9;",
       "code": ":triangular_flag_on_post:",
-      "description": "Add, update, or remove feature flags.",
+      "description": "フィーチャーフラグに関する変更",
       "name": "triangular-flag-on-post",
       "semver": "patch"
     },
@@ -498,7 +498,7 @@ const gitmojiJson = {
       "emoji": "🥅",
       "entity": "&#x1F945;",
       "code": ":goal_net:",
-      "description": "Catch errors.",
+      "description": "エラーを取得",
       "name": "goal-net",
       "semver": "patch"
     },
@@ -506,7 +506,7 @@ const gitmojiJson = {
       "emoji": "💫",
       "entity": "&#x1f4ab;",
       "code": ":dizzy:",
-      "description": "Add or update animations and transitions.",
+      "description": "アニメーションを追加/更新",
       "name": "animation",
       "semver": "patch"
     },
@@ -514,7 +514,7 @@ const gitmojiJson = {
       "emoji": "🗑️",
       "entity": "&#x1F5D1;",
       "code": ":wastebasket:",
-      "description": "Deprecate code that needs to be cleaned up.",
+      "description": "後ほどクリーンアップする必要がある",
       "name": "wastebasket",
       "semver": "patch"
     },
@@ -522,7 +522,7 @@ const gitmojiJson = {
       "emoji": "🛂",
       "entity": "&#x1F6C2;",
       "code": ":passport_control:",
-      "description": "Work on code related to authorization, roles and permissions.",
+      "description": "アクセス権限に関わるコードログを削除",
       "name": "passport-control",
       "semver": "patch"
     },
@@ -530,7 +530,7 @@ const gitmojiJson = {
       "emoji": "🩹",
       "entity": "&#x1FA79;",
       "code": ":adhesive_bandage:",
-      "description": "Simple fix for a non-critical issue.",
+      "description": "ちょっとした修正",
       "name": "adhesive-bandage",
       "semver": "patch"
     },
@@ -538,7 +538,7 @@ const gitmojiJson = {
       "emoji": "🧐",
       "entity": "&#x1F9D0;",
       "code": ":monocle_face:",
-      "description": "Data exploration/inspection.",
+      "description": "データの調査や検査",
       "name": "monocle-face",
       "semver": null
     },
@@ -546,7 +546,7 @@ const gitmojiJson = {
       "emoji": "⚰️",
       "entity": "&#x26B0;",
       "code": ":coffin:",
-      "description": "Remove dead code.",
+      "description": "デッドコードを削除",
       "name": "coffin",
       "semver": null
     },
@@ -554,7 +554,7 @@ const gitmojiJson = {
       "emoji": "🧪",
       "entity": "&#x1F9EA;",
       "code": ":test_tube:",
-      "description": "Add a failing test.",
+      "description": "失敗例を追加",
       "name": "test-tube",
       "semver": null
     },
@@ -562,7 +562,7 @@ const gitmojiJson = {
       "emoji": "👔",
       "entity": "&#128084;",
       "code": ":necktie:",
-      "description": "Add or update business logic",
+      "description": "ビジネスロジックを追加/更新",
       "name": "necktie",
       "semver": "patch"
     },
@@ -570,7 +570,7 @@ const gitmojiJson = {
       "emoji": "🩺",
       "entity": "&#x1FA7A;",
       "code": ":stethoscope:",
-      "description": "Add or update healthcheck.",
+      "description": "ヘルスチェックを追加/更新",
       "name": "stethoscope",
       "semver": null
     },
@@ -578,7 +578,7 @@ const gitmojiJson = {
       "emoji": "🧱",
       "entity": "&#x1f9f1;",
       "code": ":bricks:",
-      "description": "Infrastructure related changes.",
+      "description": "インフラに関する変更",
       "name": "bricks",
       "semver": null
     },
@@ -586,7 +586,7 @@ const gitmojiJson = {
       "emoji": "🧑‍💻",
       "entity": "&#129489;&#8205;&#128187;",
       "code": ":technologist:",
-      "description": "Improve developer experience",
+      "description": "開発者の育成のために書かれたコード",
       "name": "technologist",
       "semver": null
     }
