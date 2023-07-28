@@ -450,9 +450,9 @@ const gitmojiJson = {
     {
       emoji: "📸",
       entity: "&#128248;",
-      code: ":camera_flash:",
+      code: ":camera_with_flash:",
       description: "スナップショットを更新",
-      name: "camera-flash",
+      name: "camera--with-flash",
       semver: null,
     },
     {
