@@ -452,7 +452,7 @@ const gitmojiJson = {
       entity: "&#128248;",
       code: ":camera_with_flash:",
       description: "スナップショットを更新",
-      name: "camera--with-flash",
+      name: "camera-with-flash",
       semver: null,
     },
     {
