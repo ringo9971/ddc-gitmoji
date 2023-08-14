@@ -1,17 +1,17 @@
-import { BaseSource, Item } from "https://deno.land/x/ddc_vim@v3.4.0/types.ts";
+import { BaseSource, Item } from "https://deno.land/x/ddc_vim@v3.9.1/types.ts";
 import {
   assertEquals,
   Denops,
   fn,
-} from "https://deno.land/x/ddc_vim@v0.17.0/deps.ts#^";
+} from "https://deno.land/x/ddc_vim@v3.9.1/deps.ts#";
 
 type Gitmoji = {
   emoji: string;
-  entry: string;
+  entity: string;
   code: string;
   description: string;
   name: string;
-  semver: string;
+  semver: string | null;
 };
 
 export type CompleteMetadata = {
@@ -595,21 +595,20 @@ const gitmojiJson = {
 };
 
 export class Source extends BaseSource<Record<string, never>> {
-  async gather(): Promise<Item<CompleteMetadata>[]> {
+  async gather(): Promise<Item[]> {
     const candidates = getGitmoji();
-    const ddcCandidates = candidates.flatMap((data) => {
-      return {
-        word: data.gitmoji,
-        abbr: data.name,
-        kind: data.description,
-        user_data: {
-          name: data.name,
-          gitmoji: data.gitmoji,
-          description: data.description,
-        },
-      };
-    });
-    return Promise.resolve(ddcCandidates);
+    const ddcCandidates: Item[] = candidates.flatMap((data) => ({
+      word: data.gitmoji,
+      abbr: data.name,
+      kind: data.description,
+      user_data: {
+        name: data.name,
+        gitmoji: data.gitmoji,
+        description: data.description,
+      },
+    }));
+
+    return ddcCandidates;
   }
 
   params() {
