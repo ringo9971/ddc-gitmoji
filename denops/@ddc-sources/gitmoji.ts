@@ -591,6 +591,30 @@ const gitmojiJson = {
       name: "technologist",
       semver: null,
     },
+    {
+      emoji: "💸",
+      entity: "&#128184;",
+      code: ":money_with_wings:",
+      description: "スポンサーやお金関連",
+      name: "money_with_wings",
+      semver: null,
+    },
+    {
+      emoji: "🧵",
+      entity: "&#129525;",
+      code: ":thread:",
+      description: "マルチスレッドに関連するコードの追加/更新",
+      name: "thread",
+      semver: null,
+    },
+    {
+      emoji: "🦺",
+      entity: "&#129466;",
+      code: ":safety_vest:",
+      description: "バリデーションに関するコードの追加/更新",
+      name: "safety_vest",
+      semver: null,
+    },
   ],
 };
 
